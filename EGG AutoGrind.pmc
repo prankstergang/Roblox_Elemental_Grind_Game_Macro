@@ -1,33 +1,39 @@
 ﻿[PMC Globals]|None||
-[PMC Code v5.4.1]|F6||1|Window,2,Fast,0,1,Input,-1,-1,1|1|EGG_AutoGrind
+[PMC Code v5.4.1]|F6||0|Window,2,Fast,0,1,Input,-1,-1,1|1|EGG_AutoGrind
 Context=None|
 Groups=Start:1
-1|[LoopStart]|LoopStart|0|0|Loop||||||
-2|Left Click|Left, 1, |1|10|Click||||||
-3|[Pause]||1|500|Sleep||||||
-4|1|{1}|1|0|Send|||||3|
-5|Left Click|Left, 1, |1|10|Click|||||4|
-6|[Pause]||1|300|Sleep||||||
-7|2|{2}|1|0|Send|||||6|
-8|Left Click|Left, 1, |1|10|Click|||||7|
-9|[Pause]||1|300|Sleep||||||
-10|3|{3}|1|0|Send|||||9|
-11|Left Click|Left, 1, |1|10|Click|||||10|
-12|[Pause]||1|300|Sleep||||||
-13|4|{4}|1|0|Send|||||12|
-14|Left Click|Left, 1, |1|10|Click|||||13|
-15|[Pause]||1|300|Sleep||||||
-16|5|{5}|1|0|Send|||||15|
-17|Left Click|Left, 1, |1|10|Click|||||16|
-18|[Pause]||1|300|Sleep||||||
-19|6|{6}|1|0|Send|||||18|
-20|Left Click|Left, 1, |1|10|Click|||||19|
-21|[Pause]||1|300|Sleep||||||
-22|Escape|{Escape}|1|0|Send|||||21|
-23|[Pause]||1|100|Sleep||||||
-24|r|{r}|1|0|Send|||||22|
-25|[Pause]||1|100|Sleep||||||
-26|Enter|{Enter}|1|0|Send|||||22|
-27|[Pause]||1|5100|Sleep||||||
-28|[LoopEnd]|LoopEnd|1|0|Loop||||||
+1|[LoopStart]|LoopStart|0|0|Loop|||||1|
+2|[Pause]||1|7000|Sleep|||||3|
+3|Left Move & Click|703, 1040 Left, 1|1|10|Click|||||4|
+4|Left Move & Click|703, 1040 Left, 1|1|10|Click|||||6|
+5|Left Move & Click|703, 1040 Left, 1|1|10|Click|||||8|
+6|[Pause]||1|1000|Sleep|||||10|
+7|[Text]|1|1|0|SendRaw|||||11|
+8|Left Move & Click|958, 549 Left, 1|1|10|Click|||||12|
+9|[Pause]||1|1000|Sleep|||||14|
+10|[Text]|2|1|0|SendRaw|||||15|
+11|Left Click|Left, 1, |1|10|Click|||||16|
+12|[Pause]||1|1000|Sleep|||||18|
+13|[Text]|3|1|0|SendRaw|||||19|
+14|Left Move & Click|958, 549 Left, 1|1|10|Click|||||20|
+15|[Pause]||1|1000|Sleep|||||22|
+16|[Text]|4|1|0|SendRaw|||||23|
+17|Left Move & Click|958, 549 Left, 1|1|10|Click|||||24|
+18|[Pause]||1|1000|Sleep|||||26|
+19|[Text]|5|1|0|SendRaw|||||27|
+20|Left Move & Click|958, 549 Left, 1|1|10|Click|||||28|
+21|[Pause]||1|1000|Sleep|||||30|
+22|[Text]|6|1|0|SendRaw|||||31|
+23|Left Move & Click|958, 549 Left, 1|1|10|Click|||||32|
+24|[Pause]||1|1000|Sleep|||||34|
+25|[Text]|7|1|0|SendRaw|||||35|
+26|Left Move & Click|958, 549 Left, 1|1|10|Click|||||36|
+27|[Pause]||1|1000|Sleep|||||38|
+28|[Text]|8|1|0|SendRaw|||||39|
+29|Left Move & Click|958, 549 Left, 1|1|10|Click|||||40|
+30|[Pause]||1|1000|Sleep|||||42|
+31|Left Move & Click|31, 20 Left, 1|1|10|Click|||||43|
+32|[Text]|r|1|0|SendRaw|||||45|
+33|[Text]|`n|1|0|SendRaw|||||46|
+34|[LoopEnd]|LoopEnd|1|0|Loop|||||51|
 
